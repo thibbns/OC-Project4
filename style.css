@@ -5,6 +5,35 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+}
+
+.presentation p
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 15% 50px 15%;
+}
+
+.citation p
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 15% 16px 15%;
+}
+
+.citation p+p
+{
+    font-size: 15px;
+    text-align: center;
+    margin: 0 15% 18px 15%;
+}
+
+
+.navbar-header img{
+    width: 315px;
+    height: 50px;
+    object-fit: cover;
 }
 
 a,
