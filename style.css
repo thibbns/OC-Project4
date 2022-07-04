@@ -29,6 +29,30 @@ body {
     margin: 0 15% 18px 15%;
 }
 
+#bloc-5-cta h2{
+    
+    color: white;
+    text-align: center;
+    
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.4em;
+    color: #000000;
+    text-align: center;
+}
+
+
+p
+{
+    font-size: 14px;
+}
+
+p.text-center{
+    font-size: 14px;
+}
 
 .navbar-header img{
     width: 315px;
@@ -117,6 +141,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 .texture-paper::before {
@@ -156,13 +181,13 @@ a:hover {
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
-.d-bloc h2 a,
+
 .d-bloc h3 a,
 .d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -173,7 +198,7 @@ a:hover {
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
+
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
@@ -254,7 +279,7 @@ a:hover {
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
-.l-bloc h2 a,
+
 .l-bloc h3 a,
 .l-bloc h4 a,
 .l-bloc h5 a,
@@ -272,7 +297,7 @@ a:hover {
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
+
 .l-bloc h3 a:hover,
 .l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
@@ -668,8 +693,8 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
+
+
 h3,
 h4,
 h5,
@@ -733,10 +758,7 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
+
 
 h3 {
     font-size: 15px;
@@ -751,9 +773,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
 
 h4 {
     color: #333333!important;
@@ -782,7 +801,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(243, 151, 108, 1);
+    background-color: #cf805c;
     padding: 40px 40px 40px 40px;
 }
 
@@ -804,7 +823,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .btn-atomic-tangerine {
@@ -848,10 +867,12 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    z-index: 0;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.png");
+    background-image: url("img/image-de-presentation.jpg");
+    z-index: 0;
 }
 
 @media (max-width: 1024px) {
@@ -924,7 +945,7 @@ h4 {
         position: relative;
     }
     h1,
-    h2,
+    
     h3,
     h4,
     h5,
