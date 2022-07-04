@@ -40,7 +40,7 @@ h2 {
     font-weight: 600;
     font-size: 22px;
     line-height: 1.4em;
-    color: #333333;
+    color: #000000;
     text-align: center;
 }
 
@@ -48,10 +48,12 @@ h2 {
 p
 {
     font-size: 14px;
+    color: #000000;
 }
 
 p.text-center{
     font-size: 14px;
+    color: #000000;
 }
 
 .navbar-header img{
@@ -801,7 +803,7 @@ h4 {
 }
 
 .black-background {
-    background-color: #cf805c;
+    background-color: #F3976C;
     padding: 40px 40px 40px 40px;
 }
 
@@ -819,7 +821,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #cf805c;
+    background-color: #F3976C;
 }
 
 .tc-white {
@@ -827,7 +829,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #cf805c;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
@@ -845,7 +847,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #cf805c!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine:hover {
