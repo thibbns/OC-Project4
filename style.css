@@ -8,6 +8,13 @@ body {
     
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+left
+
 .social_links
 {
     padding-top: 20px;
@@ -340,6 +347,8 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
+
+
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
