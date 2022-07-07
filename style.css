@@ -13,6 +13,16 @@ body {
     justify-content: center;
 }
 
+.bloc h2{
+    padding-top: 50px;
+
+}
+
+.bloc .bloc-lg{
+    padding-top: 20px;
+}
+
+
 .bloc-lg{
     padding-top: 0px;
 
