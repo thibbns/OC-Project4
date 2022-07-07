@@ -13,6 +13,11 @@ body {
     justify-content: center;
 }
 
+.bloc-lg{
+    padding-top: 0px;
+
+}
+
 .social_links
 {
     padding-top: 20px;
@@ -131,7 +136,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
