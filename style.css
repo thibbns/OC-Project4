@@ -8,12 +8,10 @@ body {
     
 }
 
-.row{
+.center{
     display: flex;
     justify-content: center;
 }
-
-left
 
 .social_links
 {
@@ -24,6 +22,9 @@ left
     padding-bottom: 20px;
 }
 
+.navbar-nav li a{
+    text-decoration: underline;
+}
 
 
 p.text-center.white
