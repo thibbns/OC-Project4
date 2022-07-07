@@ -507,6 +507,8 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .btn {
@@ -723,7 +725,8 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 30px;
+
 }
 
 .hero-bloc-text-sub {
@@ -835,6 +838,8 @@ h4 {
 
 .tc-white {
     color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .btn-atomic-tangerine {
